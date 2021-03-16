@@ -4,6 +4,12 @@
 
 **Experimental** RingCentral Android/IOS apps template project based on [ringcentral-embeddable](https://github.com/ringcentral/ringcentral-embeddable) and cordova
 
+![ ](https://github.com/ringcentral/ringcentral-embeddable-mobile-framework/raw/main/screenshots/s1.png)
+
+## Demo video
+
+https://youtu.be/k7ovVgO5QlM
+
 ## Download demo apps
 
 [https://github.com/ringcentral/ringcentral-embeddable-mobile/releases](https://github.com/ringcentral/ringcentral-embeddable-mobile/releases)
