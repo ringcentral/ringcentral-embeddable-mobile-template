@@ -37,11 +37,7 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": {
-    "name": "Drake Zhao",
-    "email": "drake.zhao@ringcentral.com",
-    "url": "https://github.com/zxdong262"
-  },
+  "author": "Drake Zhao <drake.zhao@ringcentral.com> (https://github.com/zxdong262)",
   "license": "MIT",
   "devDependencies": {
     "@ant-design/icons": "^4.3.0",
@@ -138,5 +134,16 @@
       "*-compiled.js",
       "/docs/"
     ]
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringcentral/ringcentral-embeddable-mobile-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ringcentral/ringcentral-embeddable-mobile-template/issues"
+  },
+  "homepage": "https://github.com/ringcentral/ringcentral-embeddable-mobile-template#readme"
 }
