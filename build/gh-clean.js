@@ -1,4 +1,4 @@
-const { rm, mv } = require('shelljs')
+const { rm } = require('shelljs')
 
 rm('docs/js/index*')
 rm('docs/js/config*')

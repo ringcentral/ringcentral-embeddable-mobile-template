@@ -106,4 +106,4 @@ dist
 /platforms/
 /plugins/
 /config.xml
-/deploy/embeddable/
+/deploy/

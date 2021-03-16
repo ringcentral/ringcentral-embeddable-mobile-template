@@ -25,7 +25,7 @@
 # install dependencies
 npm i
 
-# start proxy server
+# start proxy server in another terminal
 npm run proxy
 
 # will get https://xxxx.ngrok.io -> localhost:6066
@@ -38,13 +38,13 @@ cp sample.env .env
 # start server
 npm start
 
-# start client
+# start client in another terminal
 npm run c
 
-# prepare cordova
+# prepare cordova in another terminal
 npm run prepare
 
-# run Android app, make sure you have simulator or real android device ready
+# run Android app, make sure you have simulator or real android device ready and open
 npm run a
 
 # run IOS app, make sure you have real IOS device and paid developer ID ready,
@@ -54,14 +54,19 @@ npm run i
 
 ## Deploy
 
-Just deploy src/server code to your server
+```sh
+## build all files to deploy folder
+npm run build-dist
+```
+
+Just deploy the `deploy` folder to your server/serverless or any platform.
 
 ## Customize
 
 - **Edit icon/splash**: Just replace [src/app/icon.png](src/app/icon.png) or [src/app/splash.png](src/app/splash.png)
 - **Edit config/plugin**: Edit [src/app/config.xml](src/app/config.xml)
 - **Add more server side function**: Edit [src/server/app/app.js](src/server/app/app.js)
-- **Add more front end functions: Edit [src/client/extra/index.js](src/client/extra/index.js)
+- **Add more front end functions**: Edit [src/client/extra/index.js](src/client/extra/index.js)
 
 ## License
 
