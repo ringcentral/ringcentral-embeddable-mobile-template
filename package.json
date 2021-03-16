@@ -5,6 +5,7 @@
   "description": "Create Android/IOS apps based on ringcentral-embeddable and cordova.",
   "main": "index.js",
   "scripts": {
+    "pre": "cp config-temp.xml ./config.xml",
     "prepare": "rm -rf platforms plugins && cordova prepare && npm run download",
     "icon": "cordova-icon --config=config.xml --icon=src/app/icon.png",
     "splash": "cordova-splash --config=config.xml --splash=src/app/splash.png",
@@ -37,7 +38,11 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Drake Zhao <drake.zhao@ringcentral.com> (https://github.com/zxdong262)",
+  "author": {
+    "name": "Drake Zhao",
+    "email": "drake.zhao@ringcentral.com",
+    "url": "https://github.com/zxdong262"
+  },
   "license": "MIT",
   "devDependencies": {
     "@ant-design/icons": "^4.3.0",

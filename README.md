@@ -23,7 +23,7 @@
 
 ```bash
 # install dependencies
-npm i
+npm run pre && npm i
 
 # start proxy server in another terminal
 npm run proxy
