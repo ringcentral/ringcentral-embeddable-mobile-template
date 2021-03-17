@@ -2,7 +2,7 @@
 
 <!-- sep -->
 
-**Experimental** RingCentral Android/IOS apps template project based on [ringcentral-embeddable](https://github.com/ringcentral/ringcentral-embeddable) and cordova
+**Experimental** RingCentral Android/IOS apps template project based on [ringcentral-embeddable](https://github.com/ringcentral/ringcentral-embeddable) and cordova, you can use our [ringcentral-embeddable-mobile-framework](https://github.com/ringcentral/ringcentral-embeddable-mobile-framework) to create your own mobile app project in one line command.
 
 ![ ](https://github.com/ringcentral/ringcentral-embeddable-mobile-framework/raw/main/screenshots/s1.png)
 
