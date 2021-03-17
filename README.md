@@ -58,6 +58,16 @@ npm run a
 npm run i
 ```
 
+## Build apps
+
+```sh
+# build Android app
+npm run build-android
+
+# build IOS app
+npmrun build-ios
+```
+
 ## Deploy
 
 ```sh
